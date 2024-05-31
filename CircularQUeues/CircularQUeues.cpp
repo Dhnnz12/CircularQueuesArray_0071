@@ -95,4 +95,17 @@ void display() {
 int main() {
 	Queues q;
 	char ch;
+	
+	while (true)
+	{
+		try {
+			cout << "menu" << endl;
+			cout << "1. impelement insert operation" << endl;
+			cout << "2. impelement delete operation" << endl;
+			cout << "3. display values" << endl;
+			cout << "4. exit" << endl;
+			cout << "enter your choice (1-4): ";
+			cin >> ch;
+			cout << endl;
+		
 
