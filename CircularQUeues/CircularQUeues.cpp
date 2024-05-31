@@ -129,3 +129,10 @@ int main() {
 				break;
 			}
 			}
+		}
+		catch (exception& e) {
+			cout << "check for the value entered." << endl;
+		}
+	}
+	return 0;
+}
