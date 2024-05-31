@@ -17,10 +17,12 @@ cout << "enter a number: ";
 cin >> num;
 cout << endl;
 
+// cek apakah antrian penuh
 if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
 	cout << "\nQueue overflow\n";
 	return;
 }
+
 
 if (FRONT == -1) {
 	FRONT = 0;
@@ -53,3 +55,6 @@ cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n
 	}
 }
 
+void display() {
+	int FRONT_position = FRONT;
+	int REAR_position = REAR;
