@@ -13,3 +13,6 @@ Queues() {
 
 void insert() {
 	int num;
+cout << "enter a number: ";
+cin >> num;
+cout << endl;
